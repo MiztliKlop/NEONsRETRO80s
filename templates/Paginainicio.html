@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!--Para poder poner un icono en la barra de navegacion-->
+    <link  rel="icon"   href="../statics/media/img/logoarcade.png" type="image/png">
+    <meta charset="utf-8">
+    <!--Titulo que aparecera en la pestaña del navegador-->
+    <title>NEON's RETRO 80's Arcade</title>
+    <!--Para poder ocupar los favicons-->
+    <link rel="stylesheet" href="../lib/fontawesome_5_13/css/all.css">
+    <!--Para poder llamar a la hoja de estilos-->
+    <link rel="stylesheet" href="../statics/css/Paginainicio.css">
+  </head>
+  <body>
+    <!--Para poder utilizar un audio-->
+    <audio autoplay loop>
+      <source src="../statics/media/track/arcade.mp3" type="audio/mpeg">
+    </audio>
+    <!--Poner la barra de navegacion-->
+    <header>
+      <a id="logo-header" href="Paginainicio.html"><img src="../statics/media/img/logoarcade.png" class="logo"></a>
+      <nav id="menu">
+        <ul>
+          <li><a href="">Usuario</a>
+            <ul>
+              <li><a href="registrosesion.html"><i class="fas fa-user-plus"></i>Sign Up</a></li>
+              <li><a href="iniciosesion.html"><i class="fas fa-user-check"></i>Log In</a></li>
+            </ul>
+          </li>
+          <li><a href="historia.html"><i class="fas fa-user-friends"></i> Acerca de Neon's Arcade 80's</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      <section>
+        <div class="inicio">
+          <!--La ruta a la cual te enviara el boton -->
+          <form action="Juegos.html"><h1>NEON's RETRO ARCADE 80's</h1><br>
+            <!--Para poder hacer un boton dentro de una imagen-->
+            <input type="image" src="../statics/media/img/play.gif"class="btn btn-info btn-lg active">
+          </form>
+        </div>
+      </section>
+    </div>
+    <!--Boton que cerrara la sesion-->
+    <div class="boton">
+      <button>Cerrar Sesion</button>
+    </div>
+    <!--footer de la pagina-->
+    <footer>
+      <nav>
+        <ul>
+          <li class="footer">Copyright &copy; 2020<li>
+            <li class="footer">Todos los derechos reservados.</li>
+        <ul>
+      </nav>
+    </footer>
+  </body>
+</html>

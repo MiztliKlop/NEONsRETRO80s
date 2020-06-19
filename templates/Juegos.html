@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Para poder poner un icono en la barra de navegacion-->
+    <link  rel="icon"   href="../statics/media/img/logoarcade.png" type="image/png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!--El titulo que aparecerá en el navegador-->
+    <title>Juegos</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!--Para poder ocupar los favicons-->
+    <link rel="stylesheet" href="../lib/fontawesome_5_13/css/all.css">
+    <!--Para poder llamar a la hoja de estilos-->
+    <link rel="stylesheet" href="../statics/css/Juegos.css">
+  </head>
+  <body>
+    <!--El header de la pagina-->
+    <header>
+      <a id="logo-header" href="Paginainicio.html"><img src="../statics/media/img/logoarcade.png" class="logo"></a>
+      <nav id="menu">
+        <ul>
+          <li><a>Juegos</a>
+            <ul>
+              <li><a href="Tron.html">Tron</a></li>
+              <li><a href="Introgame.html">BlastarWars</a></li>
+              <li><a href="brick.html">BrickBreaker</a></li>
+            </ul>
+          </li>
+          <li><a href="historia.html"><i class="fas fa-user-friends"></i> Acerca de Neon's Arcade 80's</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--El contenido que tendra la secciones-->
+    <section class="contenido">
+      <div class="title">
+      <h1>Biblioteca de Juegos</h1>
+    </div>
+    <div class="inicio">
+    <!--Las cartas donde estaran cada imagen de los juegos y los titulos-->
+    <div class="card">
+      <div class="head"><span class="name"> BlastarWars </span></div>
+        <img id="img" src="../statics/media/img/blastarwars.png">
+        <div class="content">
+        </div>
+    </div>
+    <div class="card">
+      <div class="head"><span class="name"> Tron </span></div>
+        <img id="img2" src="../statics/media/img/tron.gif">
+        <div class="content">
+        </div>
+    </div>
+    <div class="card">
+      <div class="head"><span class="name"> BrickBricker </span></div>
+        <img id="img3" src="../statics/media/img/brick.png">
+        <div class="content">
+        </div>
+    </div>
+    <div id="myModal1" class="modal">
+      <!--Las cartas donde se muestran las instrucciones y descripciones correspondientes-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Descripcion</h2>
+        </div>
+        <div class="modal-body">
+          <p>¡La Galaxia te necesita! El Halcon Milenario esta en apuros y requiere de tus habilidades para enfrentar a una flota llena de Cazas Imperiales.</p>
+          <p>¡Destruyelos y Salva A Toda La Galaxia!, pero ¡Cuidado los restos de las naves te pueden matar!</p>
+        </div>
+        <div class="modal-header">
+          <h2>Instrucciones</h2>
+        </div>
+        <div class="modal-body">
+          <p>Mueve las flechas Izquierda o Derecha para esquivar los disparos enemigos, y presiona "/SPACE/" para disparar y derrotar a los enemigos.</p>
+          <p>Destruye a todas las naves enemigas y gana el Juego.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" name="button"><a href="Introgame.html"><h3>Jugar</h3></a></button>
+        </div>
+      </div>
+    </div>
+    <div id="myModal2" class="modal">
+        <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close2">&times;</span>
+          <h2>Descripcion</h2>
+        </div>
+        <div class="modal-body">
+          <p>Las motos de luz fueron creadas originalmente del videojuego de ENCOM desarrollado por Kevin Flynn, llamada simplemente moto de luz. Cuando el propio Flynn fue obligado a jugar en un encuentro de motos de Luz, utilizo sus profundos conocimientos del videojuego para aprovechar una vulnerabilidad en el codigo que permitio a su equipo escapar de la rejilla de juego.</p>
+        </div>
+        <div class="modal-header">
+          <h2>Instrucciones</h2>
+        </div>
+        <div class="modal-body">
+          <p>Multijugador: 2 Jugadores</p>
+          <p>Las motos de luz son increiblemente rapidas y dejan tras ellas una estela solida de muro de luz. En la rejilla de juego las motos de luz se mueven en linea recta y solo giran en angulos de 90º. Cuando sus frenos son desactivados, su recorrido crea la peligrosa estela con el que otro ciclo de luz puede chocar, causando la desintegracion del programa y la de su ciclo de luz.</p>
+          <p>Mueve las flechas (Jugador 1) / W, S, A, D (Jugador 2) para empezar a moverte.</p>
+          <p>Gana quien logre que el otro jugador se impacte contra su estela de luz.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" name="button"><a href="Tron.html"><h3>Jugar</h3></a></button>
+        </div>
+      </div>
+    </div>
+    <div id="myModal3" class="modal" >
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close3">&times;</span>
+          <h2>Descripcion</h2>
+        </div>
+        <div class="modal-body">
+          <p>BrickBreaker es uno de los juegos clasicos de arcade en el que la misión es destruir todos los bloques haciendo rebotar a la pelota con la raqueta, pero cuidado ¡No dejes caer a la pelota!</p>
+        </div>
+        <div class="modal-header">
+          <h2>Instrucciones</h2>
+        </div>
+        <div class="modal-body">
+          <p>Con las flechas izquierda y derecha mueve la raqueta</p>
+          <p>evita que la pelota caiga al vacio</p>
+          <p>Reúne la mayor puntuación.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" name="button"><a href="brick.html"><h3>Jugar</h3></a></button>
+        </div>
+      </div>
+    </div>
+      </div>
+  </section>
+  <!--Footer de la página-->
+  <footer>
+    <nav>
+      <ul>
+        <li class="footer">Copyright &copy; 2020<li>
+          <li class="footer">Todos los derechos reservados.</li>
+      <ul>
+    </nav>
+  </footer>
+    <script src="../dynamics/js/Juegos.js" charset="utf-8"></script>
+  </body>
+</html>

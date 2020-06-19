@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!--Para poder poner un icono-->
+    <link  rel="icon"   href="../statics/media/img/logoarcade.png" type="image/png">
+    <meta charset="utf-8">
+    <!--Titulo que aparecera en la pestaña del navegador-->
+    <title>Inicio Sesión</title>
+    <!--Para poder ocupar la hoja del css-->
+    <link rel="stylesheet" href="../statics/css/registrosesion.css">
+    <!--Para poder ocupar los favicon-->
+    <link rel="stylesheet" href="../lib/fontawesome_5_13/css/all.css">
+  </head>
+  <body>
+    <!--El header de la pagina-->
+    <header>
+      <a id="logo-header" href="Paginainicio.html"><img src="../statics/media/img/logoarcade.png" class="logo"></a>
+      <nav id="menu">
+        <ul>
+          <li><a href="">Usuario</a>
+            <ul>
+              <li><a href="iniciosesion.html"><i class="fas fa-user-check"></i>Log In</a></li>
+            </ul>
+          </li>
+          <li><a href="historia.html"><i class="fas fa-user-friends"></i> Acerca de Neon's Arcade 80's</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      <!--La seccion que contiene el form-->
+      <section>
+        <!--EL div que contiene el form-->
+        <div class="inicio">
+          <!--indicar el formulario-->
+          <form action="Juegos.html"><h1>NEON's RETRO ARCADE 80's</h1><br>
+            <!--Margen que contendra al formulario-->
+            <fieldset>
+              <!--Leyenda que tendra el formulario-->
+              <legend>Registro</legend><br>
+              <!--Campos que tendra el form-->
+              <p>Nombre de Usuario:<input type="text" name="Usuario"></p><br>
+              <p>Paleta:<input type="color" list="Colores" name="Paleta"></p><br>
+              <p>Fondo:<input type="color" list="Colores" name="Fondo"></p><br>
+            </fieldset>
+          </form>
+          <!--La lista de los colores que apareceran-->
+          <datalist id="Colores">
+            <option value="#00ffff">
+            <option value="#00ffd5">
+            <option value="#1600FF">
+            <option value="#620694">
+            <option value="#9500FF">
+            <option value="#bb00ff">
+            <option value="#F000FF">
+          </datalist>
+        </div>
+      </section>
+      <!--El footer que tendra la pagina-->
+      <footer>
+      <nav>
+        <ul>
+          <li class="footer">Copyright &copy; 2020<li>
+            <li class="footer">Todos los derechos reservados.</li>
+        <ul>
+      </nav>
+    </footer>
+  </body>
+</html>

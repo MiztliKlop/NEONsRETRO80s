@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Para poder poner el logo en la pestaña-->
+  <link  rel="icon"   href="../statics/media/img/logoarcade.png" type="image/png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Título que aparecerá en el navegador-->
+  <title>Blastar Wars</title>
+  <!--Para poder agregar los iconos-->
+  <link rel="stylesheet" href="../lib/fontawesome_5_13/css/all.css">
+  <!--Para poder ocupar nuestra hoja de estilos-->
+  <link rel="stylesheet" href="../statics/css/BlastarWars.css">
+</head>
+
+<body>
+  <!--Header de la pagina--->
+  <header>
+    <a id="logo-header" href="Paginainicio.html"><img src="../statics/media/img/logoarcade.png" class="logo"></a>
+    <nav id="menu">
+      <ul>
+        <li><a href="">Usuario</a>
+          <ul>
+            <li><a href="registrosesion.html"><i class="fas fa-user-plus"></i>Sign Up</a></li>
+            <li><a href="iniciosesion.html"><i class="fas fa-user-check"></i>Log In</a></li>
+          </ul>
+        </li>
+        <li><a href="historia.html"><i class="fas fa-user-friends"></i> Acerca de Neon's Arcade 80's</a></li>
+      </ul>
+    </nav>
+  </header>
+
+        <!--El div que contiene al campo-->
+        <div class="wrap">
+          <div class="game-wrapper">
+            <!--Contenedor del juego en esencia-->
+            <div class="game">
+              <div class="logote">
+                <h1 class="puntaje" id="Puntuacion">Puntaje=0</h1>
+                <img class="loguito">
+              </div>
+            </div>
+            <!--Mensajes que aparecerán de acuerdo al estado del jugador-->
+            <div class="congratulations">
+              <h1>¡Felcidades!</h1>
+              <h2>Has salvado a la Galaxia</h2>
+              <button class="btn" onclick="window.location.reload()">Restart</button>
+            </div>
+            <div class="game-over">
+              <h1>GAME OVER</h1>
+              <h2>Ahora la Galaxia está en manos del Imperio</h2>
+              <button class="btn" onclick="window.location.reload()">Restart</button>
+            </div>
+          </div>
+  </div>
+  <!--Para poder llamar al script-->
+  <script src="../dynamics/js/game.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+/*Para poder poner el tipo de letra*/
+@font-face {
+    font-family: "News Cycle";
+    src: url("../../lib/fuentes/NewCycle-Bold.ttf");
+}
+/*Key frame del intro*/
+@keyframes intro {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/*Key frames de parrafos*/
+@keyframes parrafos {
+  0% {
+    top: 75%;
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    top: -70%;
+    opacity: 0;
+  }
+}
+/*Darle estilo a la clase animacion_historia*/
+.animacion_historia {
+  animation: parrafos 40s linear 6s;
+}
+/*Darle estilo a la clase animacion_intro*/
+.animacion_intro {
+  animation: intro 5s ease-out 0s;
+}
+/*Darle estilo a las clases historia*/
+.historia {
+  position: absolute;
+  top: 80%;
+}
+/*Darle estilo a la clase intro*/
+.intro {
+  left: 20%;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+}
+/*Darle estilo a las clases parrafo*/
+.parrafos {
+  left: 15%;
+  position: absolute;
+  transform-origin: 50%;
+  transform: perspective(300px) rotateX(20deg);
+  width: 70%;
+  z-index: 1;
+}
+/*Darle estilo a la clase texto_historia*/
+.texto_historia {
+  color: #ff6;
+  font-family: "News Cycle", sans-serif;
+  font-weight: 600;
+  letter-spacing: .1em;
+  line-height: 1.1em;
+  text-align: justify;
+}
+/*Darle estilo a la clase texto intro*/
+.texto_intro {
+  color: #4bd5ee;
+  font-family: "News Cycle", sans-serif;
+  font-weight: 400;
+  letter-spacing: .1em;
+}
+/*Darle estilo a la etiqueta body*/
+body {
+  background: #000;
+  margin: 0;
+  overflow: hidden;
+}
+/*Fondo de estrellas*/
+canvas {
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}

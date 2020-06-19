@@ -1,0 +1,142 @@
+/*Para poder ocupar las fuentes*/
+@font-face {
+  font-family: "Arcade";
+  src: url("../../lib/Fuentes/ka1.ttf");
+}
+/*Para darle stilo a todo*/
+* {
+  margin: 0;
+  padding: 0;
+}
+/*Para darle estilo al id menu y a la etiqueta ul*/
+#menu ul {
+  list-style:none;
+}
+/*Para darle estilo al id menu y a la etiqueta ul y a*/
+#menu ul a {
+  color:#fff;
+  display:block;
+  font-weight:500;
+  font-family:"Arcade";
+  font-size: 20px;
+  padding:20px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+/*Para darle estilo al id menu y a la etiqueta ul y li*/
+#menu ul li {
+  float:left;
+  position:relative;
+}
+/*Para darle estilo al id menu y a la etiqueta ul y li cuando se pase el mouse*/
+#menu ul li:hover {
+  background: #007bff;
+}
+/*Para darle estilo al id menu y a la etiqueta ul*/
+#menu ul ul {
+  display:none;
+  position:absolute;
+  top:100%;
+}
+/*Para darle estilo al id menu y a la etiqueta ul y li*/
+#menu ul ul li {
+  float:none;
+  width:150px
+}
+/*Para darle estilo al id menu y a la etiqueta ul y a*/
+#menu ul ul a {
+  color: black;
+  line-height:120%;
+}
+/*Para darle estilo al id menu y a la etiqueta ul y li cuando se pase el mouse*/
+#menu ul li:hover ul {
+  background-color: white;
+  display:block;
+}
+/*Para darle estilo al id logo header*/
+#logo-header {
+	float: left;
+	padding: 3px 0 0 20px;
+}
+/*Para darle estilo al id logo header cuando se pase el mouse*/
+#logo-header:hover {
+	background-color: #007bff;
+}
+/*Para darle estilo a la clase boton*/
+.boton{
+  text-align: right;
+}
+/*Para darle estilo a la clase footer*/
+.footer{
+  margin-bottom: 10px;
+  text-align:center;
+  font-family: "Arcade";
+  font-size: 25px;
+  color: white ;
+}
+/*Para darle estilo a la clase inicio*/
+.inicio{
+  align-items: center;
+  color:white;
+  display: flex;
+  font-family: "Arcade";
+  font-size: 27px;
+  grid-gap: 40px;
+  justify-content: center;
+  padding: 127px;
+  text-align: center;
+}
+/*Para darle estilo a la clase logo*/
+.logo{
+  float: right;
+  height: 100px;
+  width: 100px;
+}
+/*Para darle estilo al body*/
+body{
+  background:url('../../statics/media/img/marsnn.gif') no-repeat center center;
+  min-height:100%;
+  background-size:cover;
+}
+/*Para darle estilo a la etiqueta form*/
+form{
+  width: 800px;
+}
+/*Para darle estilo a la etiqueta header*/
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+/*Para darle estilo a la etiqueta header y nav*/
+header nav {
+  float: right;
+}
+/*Para darle estilo a la etiqueta footer*/
+footer{
+  width: 100%;
+}
+/*Para darle estilo a la etiqueta footer con la etiqueta nav*/
+footer nav {
+  display: flex;
+  flex: 1 1 auto;
+  flex-flow: column nowrap;
+  float: center;
+  width: 100%;
+}
+/*Para darle estilo a la etiqueta footer con la etiqueta nav y ul*/
+footer nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+/*Para darle estilo a la etiqueta footer con la etiqueta nav, ul y li*/
+footer nav ul li {
+  float: center;
+  font-family: "Arcade";
+  font-size: 20px;
+  padding: 3px;
+}
+/*Para darle estilo a img*/
+img{
+  width:10%;
+}
