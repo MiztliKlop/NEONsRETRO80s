@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <!--Para poder ocupara el logo-->
+  <link  rel="icon"   href="../statics/media/img/logoarcade.png" type="image/png">
+  <meta charset="utf-8">
+  <!--Titulo que aparecera en el navegaador-->
+  <title>Intro BlastarWars</title>
+  <link rel="stylesheet" href="../statics/css/introgame.css">
+</head>
+<body>
+  <!--Se define el canvas-->
+  <canvas id='snow' onmouseover="animar()"></canvas>
+  <section class="intro texto_intro">
+    Hace mucho tiempo,<br> en una galaxia muy muy lejana...
+  </section>
+  <section class="parrafos">
+    <div class="historia texto_historia">
+      <p><img src="../statics/media/img/bwlogo.png"></p>
+      <p>Tu mision es impedir que el imperio se apodere de toda la galaxia.</p>
+      <p>Ayuda a los rebeldes eres su unica esperanza.</p>
+
+    </div>
+  </section>
+  <!--Audio que se manda a llamar en el JS para que suene al entrar a la animacion-->
+  <audio src="../statics/media/track/Introstp.mp3" id="sonido"></audio>
+  <!--Para conectarse con la pagina de Inicio-->
+  <script src="../dynamics/js/intro.js"></script>
+</body>
+</html>
