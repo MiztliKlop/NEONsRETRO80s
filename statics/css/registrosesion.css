@@ -1,0 +1,140 @@
+/* Fuente designada a la Página */
+@font-face {
+    font-family: "Arcade";
+    src: url("../../lib/Fuentes/ka1.ttf");
+}
+/*Darle margen y padding entero*/
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Posición del logo en el encabezado (también hover) */
+#logo-header {
+  float: left;
+  padding: 3px 0 0 20px;
+}
+/*Darle estilo al logo cuando este en hover*/
+#logo-header:hover {
+  background-color: #007bff;
+}
+/* Estilos al menú (incluyendo listas y sublistas) */
+#menu ul {
+    list-style:none;
+}
+/*Darle estilo al enlace*/
+#menu ul a {
+    color:#fff;
+    display:block;
+    font-family:"Arcade";
+    font-size: 20px;
+    font-weight:500;
+    padding:20px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+#menu ul li {
+    float:left;
+    position:relative;
+}
+#menu ul li:hover {
+    background: #007bff;
+}
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+}
+#menu ul ul li {
+    float:none;
+    width:150px
+}
+#menu ul ul a {
+    color: black;
+    line-height:120%;
+}
+#menu ul li:hover ul {
+    background-color: white;
+    display:block;
+}
+/* Posición del botón */
+.boton{
+  text-align: right;
+}
+/* Diseño, posición del pie de página  */
+.footer{
+  color: white ;
+  margin-bottom: 10px;
+  text-align:center;
+  font-family: "Arcade";
+  font-size: 25px;
+}
+/*Darle estilo a la clase inicio*/
+.inicio{
+  align-items: center;
+  color:white;
+  display: flex;
+  font-family: "Arcade";
+  font-size: 25px;
+  grid-gap: 40px;
+  justify-content: center;
+  padding: 130px;
+}
+/* Posición del logo */
+.logo{
+  float: right;
+  height: 100px;
+  width: 100px;
+}
+/*Darle estilo al contenido de la página */
+body{
+  background:url('../../statics/media/img/marsnn.gif') no-repeat center center;
+  background-size:cover;
+  min-height:100%;
+}
+/*Darle longitud a la imagen*/
+img{
+  width:10%;
+}
+/* Centrar contenido/borde del fieldset */
+fieldset{
+  margin: auto;
+}
+/*Para Darle tamaño al footer*/
+footer{
+  width: 100%;
+}
+footer nav {
+  display: flex;
+  flex: 1 1 auto;
+  flex-flow: column nowrap;
+  float: center;
+  width: 100%;
+}
+footer nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+footer nav ul li {
+  float: center;
+  font-family: "Arcade";
+  font-size: 20px;
+  padding: 3px;
+}
+/*Para darle estilo a la etiqueta form*/
+form{
+  margin: auto;
+  width: 700px;
+}
+/*Para darle estilo al header*/
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+header nav {
+  float: right;
+}
+/*Centra el contenido dentro de la etiqueta legend*/
+legend{
+  text-align: center;
+}
