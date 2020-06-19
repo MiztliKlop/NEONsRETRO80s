@@ -1,11 +1,11 @@
-# NEONsRETRO80s   :video_game: :space_invader:
-![NEONsRETRO80s](https://raw.githubusercontent.com/MiztliKlop/cliente/statics/img/logoarcade.ico)
+ # :space_invader: NEONsRETRO80s   :video_game: 
+![logoarcade](https://user-images.githubusercontent.com/55511521/85103809-fe881f80-b1cc-11ea-9334-5b1f80784ca8.png)
 ## _Proyecto de Módulo: Javascript y Diseño Web con CSS3 y Bootstrap 4. Curso de Programación 2020._
 
 ### Nombre del equipo: NEONsRETRO80s
 
 ### Integrantes:
-* Badillo Francisco 
+* ~~Francisco Badillo~~
 * Ordóñez Rangel Omar Rodolfo
 * Ríos Lira Jaasiel
 * Zahuantitla Vázquez José Antonio 
@@ -43,6 +43,8 @@ Las motos de luz son increiblemente rapidas y dejan tras ellas una estela solida
 #### Comentarios adicionales
 
 * No hay requisitos especiales.
+
+* BrickBreaker:Juego creado por: Ríos Lira Jaasiel, Zahuantitla Vázquez José Antonio y Ordóñez Rangel Omar Rodolfo.
 
 * BlastarWars: Juego creado por Ríos Lira Jaasiel y Zahuantitla Vázquez José Antonio.
 
