@@ -1,0 +1,145 @@
+/*Para poder acceder a la fuente*/
+@font-face {
+    font-family: "Jura";
+    src: url("../../lib/Fuentes/Jura-Bold.ttf");
+}
+/*Para darle padding y margin a todo el contenido*/
+* {
+  margin: 0;
+  padding: 0;
+}
+/*Darle estilo al id menu y a la etiqueta ul*/
+#menu ul {
+    list-style:none;
+}
+/*Darle estilo al id menu y a la etiqueta ul y a*/
+#menu ul a {
+  color:#fff;
+  display:block;
+  font-family:"Jura";
+  font-size: 20px;
+  font-weight:500;
+  padding:20px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+/*Darle estilo al id menu y a la etiqueta ul y li*/
+#menu ul li {
+  float:left;
+  position:relative;
+}
+/*Darle estilo al id menu y a la etiqueta ul y li cuando se pase el mouse*/
+#menu ul li:hover {
+  background: #007bff;
+}
+/*Darle estilo al id menu y a la etiqueta ul*/
+#menu ul ul {
+  display:none;
+  position:absolute;
+  top:100%;
+}
+/*Darle estilo al id menu y a la etiqueta ul y li*/
+#menu ul ul li {
+  float:none;
+  width:150px
+}
+/*Darle estilo al id menu y a la etiqueta ul y a*/
+#menu ul ul a {
+  color: black;
+  line-height:120%;
+}
+/*Darle estilo al id menu y a la etiqueta ul y li cuando se pase el mouse*/
+#menu ul li:hover ul {
+  background-color: white;
+  display:block;
+}
+/*Darle estilo al logo*/
+#logo-header {
+	float: left;
+	padding: 3px 0 0 20px;
+}
+/*Darle estilo al logo cuando esta en hovers*/
+#logo-header:hover {
+		background-color: #007bff;
+	}
+/*Darle estilo a la clase boton*/
+.boton{
+  text-align: right;
+}
+/*Darle estilo a la clase inicio*/
+.inicio{
+  align-items: center;
+  color:white;
+  display: flex;
+  font-family: "Jura";
+  font-size: 25px;
+  grid-gap: 40px;
+  justify-content: center;
+  padding: 230px;
+}
+/*Darle estilo al aclase footer*/
+.footer{
+  margin-bottom: 10px;
+  text-align:center;
+  font-family: "Jura";
+  font-size: 25px;
+  color: white ;
+}
+/*Darle estilo a la clase logo*/
+.logo{
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+/*Darle estilo al body*/
+body{
+  background:url('../../statics/media/img/marsnn.gif') no-repeat center center;
+  min-height:100%;
+  background-size:cover;
+  }
+fieldset{
+  margin: auto;
+}
+/*Para darle estilo a la etiqueta form*/
+form{
+  margin: auto;
+  width: 700px;
+}
+/*Para darle formato al footer*/
+footer{
+  width: 100%;
+}
+footer nav {
+  display: flex;
+  float: center;
+  flex: 1 1 auto;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+footer nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+footer nav ul li {
+  float: center;
+  font-family: "Jura";
+  font-size: 20px;
+  padding: 3px;
+}
+/*Para  darle estilo al header*/
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+header nav {
+  float: right;
+}
+/*Para definirle el tamaño a la imagen*/
+img{
+  width:10%;
+}
+/*Darle estilo a la etiqueta legend*/
+legend{
+  text-align: center;
+}

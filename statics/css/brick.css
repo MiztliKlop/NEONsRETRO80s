@@ -1,0 +1,175 @@
+/*Darle estilo al id menu con etiqueta ul*/
+#menu ul {
+    list-style:none;
+}
+/*Darle estilo al id menu con etiqueta ul y a*/
+#menu ul a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:500;
+    padding:20px;
+    font-family:"Arcade";
+    font-size: 20px;
+    text-transform:uppercase;
+}
+/*Darle estilo al id menu con etiqueta ul y li*/
+#menu ul li {
+    position:relative;
+    float:left;
+}
+/*Darle estilo al id menu con etiqueta ul y li cuando se pase el mouse */
+#menu ul li:hover {
+    background: #007bff;
+}
+/*Darle estilo al id menu con etiqueta ul*/
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+}
+/*Darle estilo al id menu ul y li*/
+#menu ul ul li {
+    float:none;
+    width:150px
+}
+/*Darle estilo al id menu con etiqueta ul y a*/
+#menu ul ul a {
+    line-height:120%;
+    color: black;
+}
+/*Darle estilo al id menu con etiqueta ul y li cuando pase el mouse*/
+#menu ul li:hover ul {
+    background-color: white;
+
+}
+/*Darle estilo al id logo-header*/
+#logo-header {
+	float: left;
+	padding: 3px 0 0 20px;
+}
+/*Darle estilo al id logo-header cuando pase el mouse*/
+#logo-header:hover {
+		background-color: #007bff;
+	}
+
+/*Llamar al estilo de letra*/
+@font-face {
+ font-family: "Monoton-Regular";
+ src: url("../../lib/fuentes/Monoton-Regular.ttf");
+}
+/*Aplicar a todo el contenido el estilo de letra*/
+* {
+ font-family:"Monoton-Regular";
+ padding: 0;
+ margin: 0;
+}
+/*Dar estilo a la clase congratulations que se despliega cuando gana el jugador*/
+.congratulations {
+  align-items: center;
+  animation: pop-in 1s;
+  background-color:#0DFF97;
+  background-size: contain;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  color:#007bff;
+  display:none;
+  display: none;
+  left:35%;
+  opacity:1;
+  padding: 20px 50px;
+  position:absolute;
+  text-align:center;
+  top:50px;
+  width:400px;
+  z-index: auto;
+}
+/*Dar estilo a la clase game-over que se despliega cuando pierde el jugador*/
+.game-over {
+  animation: pop-in 1s;
+  background-color:#FF4B01;
+  background-size: contain;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  color: #FFF;
+  display:none;
+  left:40%;
+  position:absolute;
+  text-align:center;
+  top:50px;
+  width:300px;
+  z-index: auto;
+}
+/*Darle estilo a la clase inicio*/
+.inicio{
+  align-items: center;
+  display: flex;
+  font-family: "Arcade";
+  font-size: 25px;
+  grid-gap: 40px;
+  justify-content: center;
+  padding: 130px;
+}
+/*Darle estilo a la clase footer*/
+.footer{
+  margin-bottom: 10px;
+  text-align:center;
+  font-family: "Arcade";
+  font-size: 25px;
+  color: white ;
+}
+/*Darle estilo a la clase logo*/
+.logo{
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+/*Dar estilo al Canvas*/
+canvas {
+  background-image: url("../../statics/media/img/brick.jpg");
+  display: block;
+  margin: 0 auto;
+}
+/*Dar estilo al body*/
+body{
+  background:#000;
+  justify-content: center;
+}
+/*Dar estilo a la etiqueta div*/
+div{
+  text-align: center;
+}
+/*Darle estilo a la etiqueta footer*/
+footer{
+  width: 100%;
+}
+/*Darle estilo a la etiqueta footer con etiqueta nav*/
+footer nav {
+  display: flex;
+  flex: 1 1 auto;
+  flex-flow: column nowrap;
+  float: center;
+  width: 100%;
+}
+/*Darle estilo a la etiqueta footer con etiqueta nav y etiqueta ul*/
+footer nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+/*Darle estilo a la etiqueta footer con etiqueta nav, ul y li*/
+footer nav ul li {
+  font-family: "Arcade";
+  font-size: 20px;
+  float: center;
+  padding: 3px;
+}
+/*Darle estilo al header*/
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+/*Darle estilo a la etiqueta header con etiqueta nav*/
+header nav {
+  float: right;
+}
