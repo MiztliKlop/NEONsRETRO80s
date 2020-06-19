@@ -2,12 +2,12 @@
 @font-face
 {
   font-family: "Snippet";
-  src: url("../../lib/fuentes/Snippet/Snippet-Regular.ttf");
+  src: url("../../lib/fuentes/Snippet-Regular.ttf");
 }
 @font-face
 {
   font-family: "Tron";
-  src: url("../../lib/fuentes/Tron/TRON.TTF");
+  src: url("../../lib/fuentes/TRON.TTF");
 }
 article
 {
