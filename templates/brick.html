@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link  rel="icon"   href="../statics/media/img/logoarcade.png" type="image/png">
+    <meta charset="UTF-8">
+    <!--Título que aparecerá en el navegador-->
+    <title>BrickBreaker</title>
+    <!--Para poder llamar a la hoja de estilos-->
+    <link rel="stylesheet" href="../statics/css/brick.css">
+</head>
+<body>
+  <!--Audio de fondo-->
+  <audio autoplay loop>
+        <source src="../statics/media/track/kahoot.mp3" type="audio/mpeg">
+  </audio>
+  <!--Header de la pagina-->
+  <header>
+    <a id="logo-header" href="Paginainicio.html"><img src="../statics/media/img/logoarcade.png" class="logo"></a>
+    <nav id="menu">
+      <ul>
+        <li><a>Usuario</a>
+          <ul>
+            <li><a href="registrosesion.html"><i class="fas fa-user-plus"></i>Sign Up</a></li>
+            <li><a href="iniciosesion.html"><i class="fas fa-user-check"></i>Log In</a></li>
+          </ul>
+        </li>
+        <li><a href="historia.html"><i class="fas fa-user-friends"></i> Acerca de Neon's Arcade 80's</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div>
+    <section>
+  <!--Mensajes que aparecerán de acuerdo al estado del jugador-->
+  <div class="inicio">
+  <div class="congratulations">
+    <h1>¡Felicidades!</h1>
+    <h2>Ganaste el Juego</h2>
+    <button class="btn" onclick="window.location.reload()">Restart</button>
+  </div>
+  <div class="game-over">
+    <h1>GAME OVER</h1>
+    <h2>Perdiste el Juego</h2>
+    <button class="btn" onclick="window.location.reload()">Restart</button>
+  </div>
+<!--Se manda a llamar al Canvas-->
+<canvas id="myCanvas" width="985px" height="500px"></canvas>
+</div>
+</section>
+</div>
+<!--Footer de la página-->
+<footer>
+  <nav>
+    <ul>
+        <li class="footer">Copyright &copy; 2020<li>
+        <li class="footer">Todos los derechos reservados.</li>
+    <ul>
+  </nav>
+</footer>
+<script src="../dynamics/js/brick.js"></script>
+</body>
+</html>
